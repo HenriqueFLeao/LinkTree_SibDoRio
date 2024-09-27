@@ -1,12 +1,10 @@
-@import url(./assets/style/font.css);
-@import url(./assets/style/perfil.css);
-@import url(./assets/style/alinhamento.css);
-@import url(./assets/style/celular.css);
-@import url(./assets/style/botoes.css);
+@import url(/Assets/style/perfil.css);
+@import url(/Assets/style/botoes.css);
+@import url(/Assets/style/responsividade.css);
 
 @font-face {
     font-family: 'Stinger';
-    src: url('/assets/font/Zetafonts\ -\ Stinger\ Fit\ Light.ttf') format(truetype);
+    src: url('/Assets/font/Zetafonts\ -\ Stinger\ Fit\ Light.ttf') format(truetype);
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +15,11 @@ body{
     background-color: #54bcd341;
     font-family: 'Stinger', Helvetica, sans-serif;
     color: #2a3452 ;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content:space-between;
+    padding: 1% 15%
 }
 
 main{

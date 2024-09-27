@@ -1,0 +1,37 @@
+.perfil{ 
+    text-align: center;
+    font-family: 'Stinger', Helvetica, sans-serif;
+}
+
+.img{
+   /* position: relative;
+    border-radius: 20em;
+    box-shadow: 0.2em 0.2em rgba(0, 0, 0, 0.088);*/
+    width: 20em;
+    height: 11em;
+}
+
+.nome{
+    margin: 0em;
+    padding: 0.2em;
+    font-size: 2em;
+}
+
+.bio{
+    font-size: 1em;
+}
+.InstaPr{
+    text-decoration: none;
+    color: blueviolet;
+    font-family: 'Stinger', Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: transparent; /* Para que o fundo seja transparente */
+    border: none; /* Remove bordas padrão do botão */
+    cursor: pointer; /* Muda o cursor para pointer */
+}
+
+p{
+    font-size: 1em;
+    margin: 0em;
+    padding: 0em;
+}

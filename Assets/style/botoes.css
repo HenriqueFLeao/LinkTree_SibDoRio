@@ -1,0 +1,83 @@
+.botoes {
+    margin: 3em 0em;
+}
+
+.botao {
+    cursor: pointer;
+    margin-bottom: 1.5em;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 25em;
+    height: 3.3em;
+    background-color: #ffff;
+    border-radius: 10em;
+    border: 2px solid #ffff;
+    transition: background-color 0.3s ease; /* Suaviza a transição de cor */
+}
+
+.botao:before{
+    content: "";
+    position: absolute; /* posição em relação ao bloco */
+    width: 100%; /* ajusta a largura ao bloco */
+    height: 100%; /* ajusta a altura ao bloco */
+    z-index: -1; /* envia para trás do bloco*/
+    /* aqui é onde definimos o gradient */
+    background: linear-gradient(to right, #004c7fc7 0%,#006d2d81 100%);
+    /* aqui definimos o desfoque do efeito */
+    filter: blur(1em);
+    /* Para posicionar a sombra usamos top, bottom, right e left */
+    top: 0.1em;
+    left: 0;
+    /* podemos diminuir a intensidade reduzindo a opacidade */
+    opacity:0.8;
+  }
+
+.botao.active {
+    background-color: #003366; /* Cor de fundo azul escuro */
+}
+
+.botao.active .link {
+    color: #ffffff; /* Muda a cor do texto para branco */
+}
+
+.link {
+    height: 3em;
+    width: 21em;
+    border-radius: 4em 0em 0em 4em;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #231d81; /* Cor original do texto */
+    font-family: 'Stinger', Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; /* Para que o fundo seja transparente */
+    border: none; /* Remove bordas padrão do botão */
+    cursor: pointer; /* Muda o cursor para pointer */
+}
+
+.midia {
+    text-align: center;       /* Centraliza o texto horizontalmente */
+    position: absolute;       /* Usa posicionamento absoluto para centralização na tela */
+    top: 50%;                 /* Posiciona o topo do texto na metade da página */
+    left: 50%;                /* Centraliza o texto horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o texto para ficar centralizado no ponto exato */
+    font-weight: bold;
+}
+
+.button_copy {
+    width: 3em;
+    height: 3.7em;
+    background-color: rgb(153, 205, 50);
+    border: none;
+    border-radius: 0em 4em 4em 0em;
+    cursor: pointer;
+}
+
+.img_copy { 
+    width: 2em;
+    height: 2em;
+}
