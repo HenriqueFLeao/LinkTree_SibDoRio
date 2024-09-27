@@ -1,0 +1,27 @@
+@import url(./assets/style/font.css);
+@import url(./assets/style/perfil.css);
+@import url(./assets/style/alinhamento.css);
+@import url(./assets/style/celular.css);
+@import url(./assets/style/botoes.css);
+
+@font-face {
+    font-family: 'Stinger';
+    src: url('/assets/font/Zetafonts\ -\ Stinger\ Fit\ Light.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{ 
+    margin: 0em;
+    padding: 0em;
+    background-color: #54bcd341;
+    font-family: 'Stinger', Helvetica, sans-serif;
+    color: #2a3452 ;
+    
+}
+
+main{
+    height: 100%;
+    text-align: center;
+}
+
