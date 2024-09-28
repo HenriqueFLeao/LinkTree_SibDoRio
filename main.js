@@ -6,8 +6,6 @@ botaoCopy.forEach((botao) => {
         // Previne que o botão dentro do <a> execute a navegação do link
         event.preventDefault();
 
-        botao.blur();
-
         //Pega o elemento <button> de casse .link relacionado ao botão de copiar
         const linkElemento = botao.previousElementSibling
 
