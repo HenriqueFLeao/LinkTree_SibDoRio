@@ -42,11 +42,7 @@
 .botao.active .link {
     color: #ffffff; /* Muda a cor do texto para branco */
 }
-.butao.copiado{
-    background-color: transparent;
-    outline: none;
-    box-shadow: none;
-}
+
 
 .link {
     height: 3em;
@@ -85,4 +81,21 @@
 .img_copy { 
     width: 2em;
     height: 2em;
+}
+
+.button_copy:focus {
+    outline: none; /* Remove o contorno padrão que aparece ao focar o botão */
+}
+
+button:focus {
+    outline: none; /* Remove o contorno azul ao clicar em qualquer botão */
+}
+
+button:active {
+    outline: none;
+    background: none; /* Remove qualquer fundo ativo */
+}
+
+button::-moz-focus-inner {
+    border: 0; /* Remove o contorno interno em navegadores Firefox */
 }

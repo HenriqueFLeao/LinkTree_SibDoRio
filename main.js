@@ -6,13 +6,7 @@ botaoCopy.forEach((botao) => {
         // Previne que o botão dentro do <a> execute a navegação do link
         event.preventDefault();
 
-        //Adiciona uma classe temporária para remover o estilo "ativo" do botão
-        botao.classList.add('copiado');
-
-        //Remove a classe após 300ms
-        setTimeout(()=>{
-            botao.classList.remove('copiado');
-        },300);
+        botao.blur();
 
         //Pega o elemento <button> de casse .link relacionado ao botão de copiar
         const linkElemento = botao.previousElementSibling
