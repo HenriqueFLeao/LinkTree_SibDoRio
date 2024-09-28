@@ -40,7 +40,7 @@ botaoCopy.forEach((botao) => {
         //Remove o foco do botão após 100ms para dispositivos móveis
         setTimeout(()=>{
             botao.blur(); //Remove o foco do botão no celular
-        },100);
+        },1000);
 
     });
 });
