@@ -30,6 +30,10 @@
     cursor: pointer; /* Muda o cursor para pointer */
 }
 
+.bioTexto{
+    margin-bottom: 0.1em;
+}
+
 p{
     font-size: 1em;
     margin: 0em;
