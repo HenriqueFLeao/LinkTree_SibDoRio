@@ -6,8 +6,13 @@ botaoCopy.forEach((botao) => {
         // Previne que o botão dentro do <a> execute a navegação do link
         event.preventDefault();
 
-        //Remove o foco do botão logo após o clique 
-        botao.blur();
+        //Adiciona uma classe temporária para remover o estilo "ativo" do botão
+        botao.classList.add('copiado');
+
+        //Remove a classe após 300ms
+        setTimeout(()=>{
+            botao.classList.remove('copiado');
+        },300);
 
         //Pega o elemento <button> de casse .link relacionado ao botão de copiar
         const linkElemento = botao.previousElementSibling
@@ -36,11 +41,6 @@ botaoCopy.forEach((botao) => {
                 img.src = imgOriginal;
             },2000); //2000 milissegundos = 2 segundos
         })
-
-        //Remove o foco do botão após 100ms para dispositivos móveis
-        setTimeout(()=>{
-            botao.blur(); //Remove o foco do botão no celular
-        },1000);
 
     });
 });

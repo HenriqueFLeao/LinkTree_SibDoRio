@@ -42,6 +42,11 @@
 .botao.active .link {
     color: #ffffff; /* Muda a cor do texto para branco */
 }
+.butao.copiado{
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
 
 .link {
     height: 3em;
