@@ -45,9 +45,3 @@ Planejo realizar futuras melhorias no site e é importante que o link permaneça
 ## Como Contribuir
 
 Pull requests são bem-vindos. Se você deseja fazer alterações maiores, por favor, abra uma issue para discutir as mudanças antes de submeter.
-
----
-
-### Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
