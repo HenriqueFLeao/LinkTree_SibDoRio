@@ -71,7 +71,7 @@
 .button_copy {
     width: 3em;
     height: 3.7em;
-    background-color: rgb(153, 205, 50);
+    background-color: rgba(153, 205, 50, 0);
     border: none;
     border-radius: 0em 4em 4em 0em;
     cursor: pointer;
