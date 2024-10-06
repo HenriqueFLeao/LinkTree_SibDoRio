@@ -66,5 +66,4 @@ function changeLocation(url) {
   window.location.href = url; // Muda a URL da aba atual
 }
 
-
  
