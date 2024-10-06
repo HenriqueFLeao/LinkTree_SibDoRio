@@ -66,18 +66,5 @@ function changeLocation(url) {
   window.location.href = url; // Muda a URL da aba atual
 }
 
-import { Analytics } from '@vercel/analytics/react';
+
  
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <head>
-        <title>Next.js</title>
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
